@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{a7cd6bfb-54ce-4bab-a069-5e910fd17961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX11">
+      <UniqueIdentifier>{a27a2588-b785-4290-9778-7d9ab770d67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a09ca27c-7975-4468-9e6a-0f54891c424a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Camera">
+      <UniqueIdentifier>{862c487f-306f-4760-8c3c-4b3b4e347e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\MeshObejct">
+      <UniqueIdentifier>{22f51417-b918-4e8d-a0d7-924d64b390cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\MeshObejct\Deer">
+      <UniqueIdentifier>{c496be6f-9781-454f-9c01-f2336f6d294e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1153a3d8-8c7c-4cf7-b42a-2abdb82c04f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\MeshObejct\Teaport">
+      <UniqueIdentifier>{3988dd2b-7e21-4891-9fad-ae610b7d9406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Deferred">
+      <UniqueIdentifier>{c4f44aaa-6861-4684-bf48-1e08aa5e3d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Header">
+      <UniqueIdentifier>{a6d85445-2d9a-48c8-bfac-9dab92501aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\RenderState">
+      <UniqueIdentifier>{6b199ea4-1a7a-4699-8350-1e892e83a8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deferred">
+      <UniqueIdentifier>{352597c5-b5a5-49fe-8d55-20cdf884771c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LightHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DRDX11Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DRCamera.cpp">
+      <Filter>Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Deer.cpp">
+      <Filter>Object\MeshObejct\Deer</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>Renderer\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendertextureclass.cpp">
+      <Filter>Deferred</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX11Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DRDX11Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DRCamera.h">
+      <Filter>Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Deer.h">
+      <Filter>Object\MeshObejct\Deer</Filter>
+    </ClInclude>
+    <ClInclude Include="FL\d3dx11effect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>Renderer\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="readdata.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendertextureclass.h">
+      <Filter>Deferred</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\FX\color.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\wire.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredPixelShader.hlsl">
+      <Filter>Shaders\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredVertexShader.hlsl">
+      <Filter>Shaders\Deferred</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Header.hlsli">
+      <Filter>Shaders\Header</Filter>
+    </None>
+    <None Include="HeaderTex.hlsli">
+      <Filter>Shaders\Header</Filter>
+    </None>
+  </ItemGroup>
+</Project>
